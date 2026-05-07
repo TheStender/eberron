@@ -1,0 +1,39 @@
+body {
+  font-family: 'Georgia', serif;
+  background: #f4f1ee url('bg-fantasy.png') repeat;
+  color: #2d1b0e;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background: #6b4226;
+  color: #fff;
+  padding: 1em 0;
+  text-align: center;
+}
+nav a {
+  color: #ffe7b3;
+  margin: 0 1em;
+  text-decoration: none;
+  font-weight: bold;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+main {
+  max-width: 700px;
+  margin: 2em auto;
+  background: #fff8f0cc;
+  padding: 2em;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px #0001;
+}
+footer {
+  text-align: center;
+  padding: 1em 0;
+  background: #6b4226;
+  color: #ffe7b3;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
